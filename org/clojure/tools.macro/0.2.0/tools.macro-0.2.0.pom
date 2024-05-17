@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>tools.macro</artifactId>
+  <version>0.2.0</version>
+  <name>tools.macro</name>
+
+  <parent>
+    <groupId>org.clojure</groupId>
+    <artifactId>pom.contrib</artifactId>
+    <version>1.1.0</version>
+  </parent>
+
+  <developers>
+    <developer>
+      <name>Stuart Halloway</name>
+    </developer>
+    <developer>
+      <name>Konrad Hinsen</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git@github.com:clojure/tools.macro.git</connection>
+    <developerConnection>scm:git:git@github.com:clojure/tools.macro.git</developerConnection>
+    <url>git@github.com:clojure/tools.macro.git</url>
+    <tag>v0.2.0</tag>
+  </scm>
+
+  <properties>
+    <clojure.version>1.10.3</clojure.version>
+  </properties>
+</project>
